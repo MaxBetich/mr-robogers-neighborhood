@@ -15,9 +15,10 @@ This page generates an output sequence of numbers and various text by "translati
 
 ## Setup/Installation Requirements
  * Clone project from this [GitHub repository](https://github.com/MaxBetich/mr-robogers-neighborhood.git) to your desktop.
- * Navigate to top level of the "programming-language-suggester" directory.
+ * Navigate to top level of the "mr-robogers-neighborhood" directory.
  * Open "index.html" file in browser of choice to view the page.
 
+[Click Here](https://maxbetich.github.io/mr-robogers-neighborhood/) to view the page on GitHub Pages.
 
 
 ## Known Bugs
