@@ -23,3 +23,17 @@ function boopFilter(number) {
     return outputArray;
   }
 }
+
+function roboTranslator(number) {
+  const inputArray = boopFilter(number).join(" ").split(" ");
+  console.log(inputArray);
+  let outputArray = [];
+  inputArray.forEach(element => {
+    if (element.includes("1"))  {
+      outputArray.push("Beep!");
+    } else {
+      outputArray.push(parseInt(element));
+    }
+  })
+  return outputArray;
+}
