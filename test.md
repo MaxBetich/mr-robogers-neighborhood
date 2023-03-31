@@ -17,3 +17,9 @@ Code: boopFilter(-5);
 Expected Output: [0, -1, -2, -3, -4, -5]
 Code: boopFilter(5);
 ExpectedOutput: [0, 1, 2, 3, 4, 5]
+
+Describe: roboTranslator()
+
+Test: "It should replace each '1' element of the inputted number array with 'Beep!'"
+Code: roboTranslator(5);
+Expected Output: [0, 'Beep!', 2, 3, 4, 5]
