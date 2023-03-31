@@ -23,3 +23,7 @@ Describe: roboTranslator()
 Test: "It should replace each '1' element of the inputted number array with 'Beep!'"
 Code: roboTranslator(5);
 Expected Output: [0, 'Beep!', 2, 3, 4, 5]
+
+Test: "It should replace elements of the inputted array that contain a '2' with 'Boop!'"
+Code: roboTranslator(5);
+Expected Output: [0, 'Beep!', 'Boop!', 3, 4, 5]
