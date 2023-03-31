@@ -1,6 +1,8 @@
 .box1 {
   width: 50%;
   border: solid black;
+  background-color: gray;
+  color: aliceblue;
   border-width: 5px;
   padding: 5px;
   margin: auto;
