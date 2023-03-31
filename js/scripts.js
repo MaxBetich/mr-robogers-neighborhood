@@ -41,12 +41,20 @@ function roboTranslator(number) {
   return outputArray;
 }
 
+function addName() {  
+  const name = document.getElementById("name").value;
+  document.getElementById("result").append(document.createElement("h2"));
+  document.querySelector("h2").innerText = "HELLO " + name.toUpperCase();
+}
+
 function translator(event) {
   event.preventDefault();
   document.getElementById("result").innerText = "";
+  addName();
   const number = document.getElementById("number").value;
   document.getElementById("result").setAttribute("class", "box1");
-  document.getElementById("result").append(roboTranslator(number).join(", "));
+  document.getElementById("result").append(document.createElement("p"));
+  document.querySelector("#result p").append(roboTranslator(number).join(", "));
 }
 
 window.addEventListener("load", function() {
