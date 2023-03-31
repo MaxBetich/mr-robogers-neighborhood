@@ -29,7 +29,9 @@ function roboTranslator(number) {
   console.log(inputArray);
   let outputArray = [];
   inputArray.forEach(element => {
-    if (element.includes("1"))  {
+    if (element.includes("2")) {
+      outputArray.push("Boop!");
+    } else if (element.includes("1"))  {
       outputArray.push("Beep!");
     } else {
       outputArray.push(parseInt(element));
