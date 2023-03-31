@@ -43,10 +43,13 @@ function roboTranslator(number) {
 
 function translator(event) {
   event.preventDefault();
+  document.getElementById("result").innerText = "";
   const number = document.getElementById("number").value;
-  document.getElementById("result").append(roboTranslator(number));
+  document.getElementById("result").setAttribute("class", "box1");
+  document.getElementById("result").append(roboTranslator(number).join(", "));
 }
 
 window.addEventListener("load", function() {
   const form = document.querySelector("form");
+  form.addEventListener("submit", translator);
 })
