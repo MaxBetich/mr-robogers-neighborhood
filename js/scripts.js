@@ -13,3 +13,13 @@ function negativeBoop(number) {
   }
   return outputArray;
 }
+
+function boopFilter(number) {
+  if (number >= 0) {
+    const outputArray = positiveBoop(number);
+    return outputArray;
+  } else {
+    const outputArray = negativeBoop(number);
+    return outputArray;
+  }
+}
