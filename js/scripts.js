@@ -26,7 +26,6 @@ function boopFilter(number) {
 
 function roboTranslator(number) {
   const inputArray = boopFilter(number).join(" ").split(" ");
-  console.log(inputArray);
   let outputArray = [];
   inputArray.forEach(element => {
     if (element.includes("3")) {
@@ -41,3 +40,13 @@ function roboTranslator(number) {
   })
   return outputArray;
 }
+
+function translator(event) {
+  event.preventDefault();
+  const number = document.getElementById("number").value;
+  document.getElementById("result").append(roboTranslator(number));
+}
+
+window.addEventListener("load", function() {
+  const form = document.querySelector("form");
+})
