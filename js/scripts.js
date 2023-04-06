@@ -1,6 +1,6 @@
 function positiveBoop(number) {
   let outputArray = [];
-  for (i = 0; i <= number; i++) {
+  for (let i = 0; i <= number; i++) {
     outputArray.push(i);
   }
   return outputArray;
@@ -8,7 +8,7 @@ function positiveBoop(number) {
 
 function negativeBoop(number) {
   let outputArray = [];
-  for (i = 0; i >= number; i--) {
+  for (let i = 0; i >= number; i--) {
     outputArray.push(i);
   }
   return outputArray;

@@ -12,11 +12,13 @@ Expected Output: [0, -1, -2, -3, -4, -5]
 
 Describe: boopFilter()
 
-Test: "It should return an appropriate array based on whether the user's number was positive or negative"
-Code: boopFilter(-5);
-Expected Output: [0, -1, -2, -3, -4, -5]
+Test: "It should return an array of positive numbers when the user enters a positive number"
 Code: boopFilter(5);
-ExpectedOutput: [0, 1, 2, 3, 4, 5]
+Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test: "It should return an array of negative numbers  when  the user enters a negative number"
+Code: boopFilter(-5);
+ExpectedOutput: [0, -1, -2, -3, -4, -5]
 
 Describe: roboTranslator()
 
